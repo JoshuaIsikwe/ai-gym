@@ -1,5 +1,6 @@
+import Image from 'next/image'
 import React from 'react'
-
+import banner from '@/public/illustrations/safe-gym-return.jpg'
 const Banner = () => {
   return (
     <section className=" bg-zinc-900 h-screen">
@@ -11,7 +12,7 @@ const Banner = () => {
                     <button className='bg-green-200 p-1 rounded-md text-white'>Join now</button>
                 </div>
 
-                <div className='bg-blue-500 w-full h-full bg-banner-bg bg-cover bg-right lg:bg-center bg-no-repeat flex-1'>Image </div>
+                <div className='bg-blue-500 w-full h-full grayscale bg-banner-bg bg-cover bg-right lg:bg-center bg-no-repeat flex-1'><Image src={banner}/></div>
             </div>
         </div>
     </section>
