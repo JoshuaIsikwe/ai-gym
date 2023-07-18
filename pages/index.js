@@ -4,6 +4,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Navbar from '@/pages/components/Navbar'
 import Banner from './components/Banner'
+import { FaUserAlt} from "react-icons/fa";
+import { CgGym} from "react-icons/cg";
+import { GiMeal} from "react-icons/gi";
 
 
 
@@ -28,10 +31,37 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section>
-        <div>
-
-        </div>
+      <section className='box flex flex-wrap justify-evenly'>
+      <div className='rounded-3xl shadow-xl shadow-gray-400 relative flex flex-col p-8 items-center text-center h-96 w-3/4 mx-auto mt-10 md:w-2/3 lg:w-1/4'>
+                <CgGym className=' text-5xl text-gray-700 hover:scale-110 hover:text-blue-500'/>
+                <h5 className='text-2xl font-bold mb-2'>Gym Buddy</h5>
+                <div className='pra '>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, cupiditate.</p>
+                  <Link href=''>
+                    <li className='button font-bold transition-colors border outline-none border-solid bg-blue-300 rounded-3xl  cursor-pointer list-none absolute w-2/4 p-2 left-0 right-0 mx-auto self-center bottom-1/4 hover:bg-transparent font hover:text-red-500 hover:scale-105'>Read more</li>
+                  </Link>
+                </div>
+              </div>
+              <div className='rounded-3xl shadow-xl shadow-gray-400 relative flex flex-col p-8 items-center text-center h-96 w-3/4 mx-auto mt-10 md:w-2/3  lg:w-1/4'>
+                <FaUserAlt className=' text-5xl text-gray-700 hover:scale-110  hover:text-blue-500'/>
+                <h5 className='text-2xl font-bold mb-2'>Monitor</h5>
+                <div className='pra '>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <Link href=''>
+                    <li className='button font-bold transition-colors border outline-none border-solid bg-blue-300 rounded-3xl  cursor-pointer list-none absolute w-2/4 p-2 left-0 right-0 mx-auto self-center bottom-1/4 hover:bg-transparent font hover:text-red-500 hover:scale-105'>Read more</li>
+                  </Link>
+                </div>
+              </div> 
+              <div className='rounded-3xl shadow-xl shadow-gray-400 relative flex flex-col p-8 items-center text-center h-96 w-3/4 mx-auto mt-10 md:w-2/3 lg:w-1/4'>
+                <GiMeal className=' text-5xl text-gray-700 hover:scale-110  hover:text-blue-500'/>
+                <h5 className='text-2xl font-bold mb-2'>Diet and meal plan</h5>
+                <div className=''>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, recusandae.</p>
+                  <Link href='/'>
+                    <li className='button  font-bold transition-colors border outline-none border-solid bg-blue-300 rounded-3xl  cursor-pointer list-none absolute w-2/4 p-2 left-0 right-0 mx-auto self-center bottom-1/4 hover:bg-transparent font hover:text-red-500 hover:scale-105'>Read more</li>
+                  </Link>
+                </div>
+              </div>
         </section>
     </main>
   )

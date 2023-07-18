@@ -9,7 +9,7 @@ const Banner = () => {
           <Navbar/>
             <div className='flex items-center h-full relative -space-x-48 lg:-space-x-24 pl-6'>
                 <div className=' text-white flex-1 z-10'>
-                    <h1 className='text-7xl text-slate-900 font-bold mb-8'>Skynet Gym</h1>
+                    <h1 className='text-7xl text-slate-900 font-bold font-sans uppercase mb-8'>Skynet Gym</h1>
                     <p className='max-w-lg text-lg text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <button className='bg-green-200 mt-10 p-1 rounded-md text-slate-700'>Join now</button>
                 </div>
