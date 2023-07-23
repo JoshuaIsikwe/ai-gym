@@ -21,7 +21,7 @@ const Navbar = props=> {
                   <Link href='/Blog' className='text-lg px-5 hover:text-xl hover:text-blue-500' >Blog</Link>
                   </div>
                 <div className='flex item-center justify-between gap-8'>
-                  <p>Sign In</p>
+                  <Link href=''>Sign In</Link>
                   <Link href='/Registration'><button className='bg-transparent hover:transition-500 hover:bg-blue-500 text-slate-200 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded'>Become a member</button></Link>
                 </div>
               </div>
