@@ -12,7 +12,7 @@ import { GiMeal} from "react-icons/gi";
 
 export default function Home() {
   return (
-    <main
+    <main 
       className= 'gap-16 md:h-full md:pb-0 bg-gray-100'
     >
       <Banner/>
