@@ -2,7 +2,12 @@ import React from 'react'
 
 const Login = () => {
   return (
-    <div>Login</div>
+    <div>
+      <div className='flex h-screen'>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
   )
 }
 
