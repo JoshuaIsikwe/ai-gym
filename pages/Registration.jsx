@@ -2,10 +2,14 @@ import Image from 'next/image'
 import React from 'react'
 import home1 from '@/public/illustrations/HomePageGraphic.png'
 import Link from 'next/link'
+import Navbar from './components/Navbar'
 
 const Registration = () => {
   return (
-    <section className='bg-gray-200 h-screen  w-11/12 md:w-4/5 m-auto my-24 flex  items-center justify-center'>
+
+   <div>
+    <Navbar/>
+     <section className='bg-gray-200 h-screen  w-11/12 md:w-4/5 m-auto my-24 flex  items-center justify-center'>
         <div className='bg-gradient-to-br from-blue-500 to-blue flex-col md:flex-row flex-wrap h-5/6 rounded-2xl text-center w-full md:w-5/6 flex p-5'>
             <div className='flex-1'>
                 <h1 className= ' text-left text-slate-200 text-4xl '>SIGN UP</h1>
@@ -41,11 +45,12 @@ const Registration = () => {
                 <button className=' bg-blue-400 mt-3  hover:bg-slate-100 w-1/3'>Log In (LeftArrow) </button>
             </div>
             <div className='flex-1 items-center rounded-xl'>
-                <h1 className='text-4xl text-violet-100 font-bold'>AIGym</h1>
+                <h1 className='text-4xl text-violet-100 font-bold'>FitAI</h1>
                 <Image src={home1} alt='#' className='h-5/6 mt-10 rounded-md object-cover'/> 
             </div> 
         </div>
     </section>
+   </div>
   )
 }
 

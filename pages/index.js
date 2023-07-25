@@ -19,7 +19,7 @@ export default function Home() {
       <section>
         <div className='flex w-full flex-col p-3 md:p-10 items-center md:h-5/6' >
           <div className='flex-1 flex-col text-center'>
-              <h1 className='text-5xl'>AI GYM</h1>
+              <h1 className='text-5xl'>FitAI</h1>
               <p className='w-full md:w-2/4 text-justify mx-auto'>Transforms mind dolor sit amet consectetur adipisicing elit. Quas rem quae tenetur provident et quis earum facere obcaecati optio reprehenderit!</p>
           </div>
           <div className='flex-1 w-2/4 md:w-1/4'>
