@@ -8,13 +8,13 @@ import Link from 'next/link';
 const Navbar = props=> {
   
   return (
-    <nav className='bg-gradient-to-b'>
-      <div className="flex sticky item-center justify-between z-50 top-0 w-full py-6">
+    <nav className=']'>
+      <div className="flex sticky item-center justify-between z-50 top-0 w-full py-5">
           <div className="flex item-center justify-between mx-auto w-5/6">
             <div className="flex item-center justify-between w-full gap-16">
               <Image src={logo} width={40} alt='logo' />
 
-              <div className="flex text-slate-200 item-center justify-between w-full">
+              <div className="flex font-bold text-violet-500 item-center justify-between w-full">
                 <div className="item-center hidden justify-between gap-8 text-sm md:flex">
                   <Link href='/' className='text-lg px-5 hover:text-xl hover:text-blue-500' >Home</Link>
                   <Link href='/Benefits' className='text-lg px-5 hover:text-xl hover:text-blue-500' >Benefits</Link>

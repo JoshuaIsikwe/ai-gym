@@ -3,13 +3,15 @@ import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import { Poppins } from 'next/font/google'
 import Footer from './components/Footer'
+import Sidebar from './components/Sidebar'
 
 const poppins = Poppins({ subsets: ['latin'], weight:['400', '600'] })
 
 export default function App({ Component, pageProps }) {
-  return <main className={poppins.className}>
+  return (<main className={poppins.className}>
     <Component {...pageProps} />
     <Footer/>
   </main>
+  )
 
 }
