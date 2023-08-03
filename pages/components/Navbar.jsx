@@ -12,7 +12,7 @@ const Navbar = props=> {
       <div className="flex sticky item-center justify-between z-50 top-0 w-full py-5">
           <div className="flex item-center justify-between mx-auto w-5/6">
             <div className="flex item-center justify-between w-full gap-16">
-              <Image src={logo} width={40} alt='logo' />
+              <div className='bg-white rounded-2xl'><Image src={logo} width={40} alt='logo' /></div>
 
               <div className="flex font-bold text-violet-500 item-center justify-between w-full">
                 <div className="item-center hidden justify-between gap-8 text-sm md:flex">

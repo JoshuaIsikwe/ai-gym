@@ -10,6 +10,12 @@ module.exports = {
       backgroundImage: {
         'contact-bg': "url('/illustrations/safe-gym-return.jpg')",
       },
+      height:{
+        'h-v5': '50vh',
+        'h-v7': '70vh',
+        'h-v8': '80vh',
+        'h-v9': '90vh',
+      }
     },
   },
   plugins: [],

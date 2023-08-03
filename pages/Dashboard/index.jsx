@@ -6,13 +6,13 @@ import Charts from '../components/Charts'
 
 const index = () => {
   return (
-   <main className=''>
+   <main className='bg-gray-700 min-h-screen'>
     <p>Lorem ipsum dolor sit amet.</p>
     <Sidebar/>
     <Topcards/>
 
-    <div className='p-4 grid md:grid-cols-3 grid-cols-1 gap-4'>
-      <Charts/>
+    <div className='p-4 ml-20 grid md:grid-cols-3 grid-cols-1 gap-4 bg-'>
+     
     </div>
    </main>
 
