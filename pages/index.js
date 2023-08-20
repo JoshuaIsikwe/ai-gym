@@ -2,15 +2,17 @@ import home1 from '@/public/illustrations/brain.png'
 import home2 from '@/public/illustrations/learn.png'
 import Link from 'next/link'
 import Image from 'next/image'
-import Navbar from '@/pages/components/Navbar'
 import Banner from './components/Banner'
 import { FaUserAlt} from "react-icons/fa";
 import { CgGym} from "react-icons/cg";
 import { GiMeal} from "react-icons/gi";
+import { useState } from 'react'
 
 
 
 export default function Home() {
+
+  
   return (
     <main 
       className= 'gap-16 md:h-full md:pb-0 bg-gray-100'

@@ -39,23 +39,11 @@ const Charts = () => {
         },
       ]
     })
-    setChartOptions({
-      plugins:{
-        legend:{
-          position: 'top',
-        },
-        title: {
-          display: true,
-          text: 'Daily Revenue'
-        }
-      },
-      maintainAspectRatio: false,
-      responsive: true
-    })
+
   }, [])
 
   return (
-    <div className='w-full h-h-v7 md:col-span-2 relative rounded-lg bg-white'>
+    <div className='w-full h-h-v6 md:col-span-2 relative rounded-lg bg-white shadow-md'>
       <Bar data={chartData} options={chartOptions}/>
     </div>
   )

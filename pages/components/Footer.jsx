@@ -1,17 +1,17 @@
 import React from 'react'
+import {AiFillWechat} from 'react-icons/ai'
 
 const Footer = () => {
   return (
-    <div className='h-20 mt-10 flex flex-col items-center justify-center bg-gradient-to-b from-slate-600 to-gray-900'>
-        <div className='flex justify-between gap-10'>
-            <div>Something</div>
-            <div>something</div>
-        </div>
-        <div>
-          Additional somehting
-        </div>
-        <div className='text-blue-500'>Links</div>
-        <div>Made by Chibs x Josh</div>
+    <div className='max-w-[1140px] w-full py-8 m-auto border-t-4'>
+       <div className='flex items-center m-auto justify-center'>
+        <AiFillWechat size={30} className='mr-3 hover:scale-150 hover:text-blue-400'/>
+        <h1 className='text-2xl font-bold text-blue-400'>FitAI</h1>
+       </div>
+       <div className='mt-2 justify-around flex m-auto w-4/6 text-gray-500'>
+        <span>©2023 FitAI. All Rights Reserved</span>
+        <span className='text-lg'>By Chibs and Josh</span>
+       </div>
     </div>
   )
 }
